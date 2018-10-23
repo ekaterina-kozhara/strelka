@@ -19,7 +19,14 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
 
+a:hover {
+  color:black;
+  }
 nav ul {
   position: absolute;
   top: 25px;
@@ -43,13 +50,15 @@ nav ul {
   right: 0;
   left: 0;
 }
+.box1 a {
+  background-color: blue;
+  margin-right: 20px;
+  padding: 5px 5px;  
+}
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-size: 90px;
-}
-a {
-
 }
